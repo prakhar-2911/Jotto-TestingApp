@@ -2,7 +2,7 @@ import React from 'react';
 import Congrats from './Congrats';
 import {findByTestAttr, checkProps} from '../test/testUtils';
 import {shallow} from 'enzyme';
-import checkPropTypes from 'check-prop-types';
+//import checkPropTypes from 'check-prop-types';
 //import propTypes from 'prop-types';
 
 const defaultProps = {success: false};

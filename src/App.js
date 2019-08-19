@@ -12,7 +12,7 @@ class App extends Component {
         <Congrats success={true}/>
         <GuessedWords guessedWords={[{
           guessedWord: 'train',
-          letterMatchCount: 3
+          matchLetterCount: 3
         }]}/>
       </div>
       );
